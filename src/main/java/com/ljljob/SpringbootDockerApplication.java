@@ -15,7 +15,7 @@ public class SpringbootDockerApplication {
 
     @RequestMapping("/")
     public String index(String index) {
-        return "indexasd";
+        return "hello world";
     }
 
 }
